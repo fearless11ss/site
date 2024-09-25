@@ -1,0 +1,230 @@
+*
+{
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+  
+*
+{
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.wrapper
+{
+    margin: auto;
+    width: 70%;
+}
+  
+.main_block
+{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.about_me
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about_me h1
+{
+    text-align: center;
+}
+
+.about_me img
+{
+    width: 50%;
+    height: auto;
+}
+
+.links
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+}
+
+.links a
+{
+    width: 300px;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    font-size: larger;
+}
+
+.links a:hover
+{
+    background-color: rgb(210, 210, 210);
+}
+
+.head
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 40px;
+}
+
+.head h1
+{
+    background-color: white;
+    color: black;
+}
+
+.head a
+{
+    background-color: rgb(210, 210, 210);
+    color: black;
+    padding: 20px;
+}
+
+.head a:hover
+{
+    background-color: white;
+}
+
+.info
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.info img
+{
+    width: 30%;
+    height: auto;
+}
+
+.info p
+{
+    font-size: 25px;
+}
+
+.chart .pipe {
+    background: rgb(170, 170, 170) none repeat scroll 0 0;
+    box-shadow: 3px 3px 3px 0 rgb(200, 200, 200) inset;
+}
+
+.chart .pipe {
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    margin-bottom: 1.2em;
+}
+
+.chart p {
+    margin: 0 0 5px
+}
+
+.chart .pipe > div {
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 5px;
+    height: 10px;
+}
+
+.socials
+{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.socials a
+{
+    width: 1%;
+}
+
+.socials img
+{
+    width: 500%;
+    height: auto;
+}
+
+.image_block
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.image_block img
+{
+    width: 50%;
+    height: auto;
+}
+
+.table
+{
+    border-left: 1px solid white;;
+    width: 100%;
+    font-size: 25px;
+}
+
+.table th
+{
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+
+.table td
+{
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.maps
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.regions
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.regions img
+{
+    width: 62%;
+    height: auto;
+    text-align: center;
+}
+
+.list
+{
+    font-size: 25px;
+}
+
+.text
+{
+    font-size: 25px;
+}
+
+.form
+{
+    margin: auto;
+    width: 40%;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О разработчике</title>
+</head>
+<body>
+    <header>
+        <div class="head">
+            <h1>fearless_</h1>
+            <a href="index.html">На главную</a>
+        </div>
+    </header>
+    <div class="wrapper">
+        <div class="info">
+            <img src="img/pfp.jpg" alt="картинка не грузится(">
+            <p>Досаев Станислав(он же fearless_) - обучается на программиста, а также начинающий тестировщик ПО.
+            <br>Владеет многими языками программирования на базовом уровне, такими как Python, C++, Java Script, Java, C#.
+            <br>Также имеет опыт в SQL и с фронтенд-версткой на языках HTML и CSS.</p>
+        </div>
+        <h1 style="text-align: center;">Диаграмма навыков разработчика</h1>
+        <div class="chart">
+            <p>Навыки ручного тестирования ПО- 2%</p>
+            <div class="pipe">
+            <div style="width: 2%"></div>
+            </div>
+            <p>Python (базовый уровень) - 80%</p>
+            <div class="pipe">
+            <div style="width: 80%"></div>
+            </div>
+            <p>C++ (базовый уровень) - 100%</p>
+            <div class="pipe">
+            <div style="width: 100%"></div>
+            </div>
+            <p>HTML и CSS  - 40%</p>
+            <div class="pipe">
+            <div style="width: 40%"></div>
+            </div>
+        </div>
+        <h1 style="text-align: center;">Социальные сети разработчика</h1>
+        <div class="socials">
+            <a href="https://discord.com/users/612696269965754405"><img src="img/discord_logo.jpg" alt="не грузит"></a>
+            <a href="https://t.me/fxvrlxss_ss"><img src="img/tg_logo.jpg" alt="не грузит"></a>
+            <a href="https://steamcommunity.com/id/fearless_ss"><img src="img/steam_logo.jpg" alt="не грузит"></a>
+        </div>
+        <h1 style="text-align: center;">Обратная связь</h1>
+        <form class="form">
+            <!--Тег используется для группировки связанных элементов в форме-->
+            <fieldset>
+            <!--Тег задает заголовок для групповых элементов-->
+            <legend>Оставьте сообщение:</legend>
+            Ваше имя:
+            <!--Устанавливает однострочное текстовое поле ввода:-->
+            <input type="text" name="name">
+            <!--Используется для полей ввода, которые должны содержать адрес электронной почты.-->
+            E-mail:
+            <input type="text" name="email">
+            Номер телефона:
+            <input type="text" name="phone">
+            Сообщение:
+            <!--Тег разрешает многострочный ввод текста.-->
+            <!--Текстовая область может содержать неограниченное количество символов-->
+            <textarea rows="10" cols="45" name="message" style="width: 100%;"></textarea>
+            <!--Устанавливает кнопку для отправки данных формы в обработчик формы.-->
+            <input type="submit" value="Отправить сообщение">
+            </fieldset>
+            </form>
+    </div>
+</body>
+</html>
